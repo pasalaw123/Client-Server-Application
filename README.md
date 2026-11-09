@@ -70,5 +70,4 @@ Capture these screenshots after running the project:
 ## Short assessment conclusion
 The application demonstrates the client-server model using HTTP communication on a localhost environment. The browser client sends GET and POST requests to the Python server. The server processes requests through separate API, business logic, and data access layers, then returns JSON responses to the client. Successful submission and retrieval of a message demonstrate communication between the system components.
 
-## Important note about the assessment link
-`http://localhost:8000` works only on the computer running the server; your lecturer cannot access it remotely. Submit the project ZIP or upload the extracted folder to your school LMS/GitHub. If a public repository link is required, create a GitHub repository, upload these files, and paste its URL into your submission.
+
