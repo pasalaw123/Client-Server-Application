@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Localhost Client-Server Demo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <header>
+      <p class="eyebrow">ACTIVITY 3 · CLIENT-SERVER APPLICATION</p>
+      <h1>Message Exchange</h1>
+      <p class="intro">A simple demonstration of communication between a browser client and a local server.</p>
+      <span id="serverStatus" class="status">Checking server…</span>
+    </header>
+
+    <section class="panel">
+      <h2>Send a message to the server</h2>
+      <form id="messageForm">
+        <label for="name">Your name</label>
+        <input id="name" maxlength="50" placeholder="e.g. Pasalaw" required>
+        <label for="message">Message</label>
+        <textarea id="message" maxlength="300" rows="3" placeholder="Type a message..." required></textarea>
+        <button type="submit">Send to server</button>
+      </form>
+      <p id="feedback" role="status"></p>
+    </section>
+
+    <section class="panel">
+      <div class="section-heading">
+        <h2>Messages received from server</h2>
+        <button id="refreshButton" class="secondary" type="button">Refresh</button>
+      </div>
+      <div id="messages" class="messages"><p>Loading messages…</p></div>
+    </section>
+    <footer>Running locally · Python HTTP server · Port 8000</footer>
+  </main>
+  <script src="client.js"></script>
+</body>
+</html>

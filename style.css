@@ -1,0 +1,24 @@
+* { box-sizing: border-box; }
+body { margin: 0; background: #f2f5f9; color: #1d2939; font-family: Arial, sans-serif; }
+.container { width: min(760px, 92%); margin: 44px auto; }
+header { margin-bottom: 24px; }
+.eyebrow { color: #3867c8; font-size: 12px; font-weight: bold; letter-spacing: 1.3px; }
+h1 { margin: 8px 0; font-size: 36px; }
+.intro { color: #667085; line-height: 1.5; }
+.status { display: inline-block; margin-top: 8px; padding: 7px 11px; border-radius: 20px; background: #fff1f0; color: #b42318; font-size: 13px; }
+.status.online { background: #e8f7ee; color: #18794e; }
+.panel { background: white; padding: 24px; margin: 18px 0; border: 1px solid #e4e7ec; border-radius: 14px; box-shadow: 0 5px 18px #1018280a; }
+h2 { margin: 0 0 18px; font-size: 19px; }
+label { display: block; margin: 13px 0 6px; font-size: 14px; font-weight: bold; }
+input, textarea { width: 100%; border: 1px solid #d0d5dd; border-radius: 8px; padding: 12px; font: inherit; }
+textarea { resize: vertical; }
+button { border: 0; border-radius: 8px; background: #2457c5; color: white; padding: 11px 16px; margin-top: 14px; cursor: pointer; font-weight: bold; }
+button:hover { background: #1946a5; }
+.secondary { margin: 0; background: #eef2ff; color: #2448a5; }
+.section-heading { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+.message { padding: 13px 0; border-top: 1px solid #eaecf0; }
+.message strong { display: block; margin-bottom: 5px; }
+.message p { margin: 0; color: #475467; white-space: pre-wrap; overflow-wrap: anywhere; }
+#feedback { min-height: 18px; color: #18794e; font-size: 14px; }
+#feedback.error { color: #b42318; }
+footer { text-align: center; color: #98a2b3; font-size: 12px; padding: 12px; }
